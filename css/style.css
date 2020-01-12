@@ -8,6 +8,7 @@ body {
     color: #707070;
     overflow: hidden;
     min-width: 300px;
+    font-family: "游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 a {
@@ -178,7 +179,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
-    background-color: #FDFEF8;
+    background-color: rgba(245, 245, 255, 0.438);
 }
 
 .annai img {
