@@ -172,14 +172,14 @@ a {
 
 .box {
     border: solid 2px rgba(70, 70, 70, 0.3);
-    border-radius: 30px;
+    border-radius: 20px;
     width: 80%;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
-    background-color: rgba(245, 245, 255, 0.438);
+    background-color: rgba(245, 245, 255, 0.301);
 }
 
 .annai img {
