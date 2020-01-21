@@ -333,39 +333,15 @@ h3 {
     border-collapse: separate;
 }
 
-.card {
-    box-shadow: 0px 0px 2px 0px #707070;
-    width: 30%;
-    margin-right: 20px;
-    background-color: #fff;
-}
-
-.card:first-child {
-    margin-left: 20px;
-}
-
-.card h3,
-.card p {
-    margin: 10px 20px 0;
-}
-
-.card p {
-    font-size: 0.9rem;
-}
-
-
-.card img {
-    width: 100%;
-}
-
 @media(max-width: 768px) {
     .aisatsu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 85%;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .aisatsu .flex {
+        flex-direction: column;
+        width: 85%;
     }
 
     .aisatsu img {
@@ -399,36 +375,6 @@ h3 {
     font-size: 1rem;
     padding: 15px 25px;
     margin-bottom: 0px;
-}
-
-
-@media(max-width: 768px) {
-
-    .card {
-        width: 80%;
-        margin: auto;
-        margin-top: 20px;
-        background-color: #fff;
-    }
-
-    .card:first-child {
-        margin: auto;
-    }
-
-    .card h3,
-    .card p {
-        margin: 5px 10px 0;
-    }
-
-    .card p {
-        font-size: 0.8rem;
-    }
-
-    .card img {
-        width: 100%;
-    }
-
-
 }
 
 
@@ -504,7 +450,8 @@ h3 {
 @media(max-width: 768px) {
 
     .access {
-        margin: 50px auto;
+        padding: 50px 0;
+        margin: 0 auto;
     }
 
     .access img {
@@ -573,6 +520,7 @@ td:last-child {
 @media(max-width: 959px) {
     .reserve {
         flex-direction: column;
+        margin: 20px auto 0;
     }
 
     .reserve .box {
